@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Three.js + Rapier Character</title>
+    <style>
+      html, body { margin: 0; height: 100%; overflow: hidden; background: #1a1d23; }
+      canvas { display: block; }
+      #hud {
+        position: fixed; left: 12px; top: 12px; color: #fff;
+        font: 13px/1.5 system-ui, sans-serif; background: rgba(0,0,0,.45);
+        padding: 8px 12px; border-radius: 8px; pointer-events: none; white-space: pre-line;
+      }
+      #wardrobe {
+        position: fixed; top: 12px; right: 12px; width: 210px;
+        padding: 12px; border-radius: 8px; color: #fff;
+        background: rgba(18, 24, 30, .85); font: 13px/1.4 system-ui, sans-serif;
+      }
+      #wardrobe h2 { margin: 0 0 10px; font-size: 15px; }
+      #wardrobe label { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin: 6px 0; }
+      #wardrobe select { width: 118px; padding: 4px; border-radius: 4px; }
+      #wardrobe .skin-controls { display: flex; align-items: center; gap: 5px; }
+      #wardrobe input[type="color"] { width: 70px; height: 28px; padding: 2px; border: 0; border-radius: 4px; cursor: pointer; }
+      #wardrobe button { padding: 4px 6px; border: 0; border-radius: 4px; cursor: pointer; }
+      #wardrobe .wardrobe-status { margin: 8px 0 0; font-size: 11px; color: #d7e3ee; }
+    </style>
+  </head>
+  <body>
+    <div id="hud">Đang tải...</div>
+    <div id="wardrobe"><h2>Trang phục</h2></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

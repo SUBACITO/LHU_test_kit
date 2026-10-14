@@ -1,0 +1,21 @@
+# Dependencies and build output
+node_modules/
+dist/
+
+# Local browser test data
+.chrome-face-test/
+
+# Logs and local environment files
+*.log
+.env.local
+.env.*.local
+
+# Editor and OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Blender backup files
+*.blend1
+*.blend2

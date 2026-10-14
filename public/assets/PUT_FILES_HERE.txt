@@ -1,0 +1,6 @@
+Copy cac file vao thu muc nay:
+  character-smooth.fbx <- FBX "With Skin" dung rig Mixamo
+  Happy Idle.fbx     <- Without Skin
+  Jump Idle.fbx      <- Without Skin
+  Running.fbx        <- Without Skin (tick In Place)
+(Neu doi ten file thi sua lai o dau src/main.js)
